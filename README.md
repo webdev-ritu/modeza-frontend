@@ -1,1 +1,1 @@
-# modeza-frontend
+# modeza
