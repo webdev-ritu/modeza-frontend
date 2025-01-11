@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>Modeza</title>
+</head>
+<body>
+  <header class="section-navbar">
+
+
+    <div class="contain nav">
+      <div class="navbar-brand">
+        <a href="index.html"><img src="./image/MODEZA logo.png" alt="modeza" class="logo"></a>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item link-a"><a class="link-a" href="index.html">Home</a></li>
+          <li class="nav-item"><a href="men.html">Men</a></li>
+          <li class="nav-item"><a href="women.html">Women</a></li>
+          <li class="nav-item"><a href="product.html">Products</a></li>
+          <li class="nav-item">
+            <a class="user" href="login.html"><i class="fa-solid fa-user"></i></a>
+          </li>
+          <li class="nav-item"><a href="cart.html" class="nav-link add-to-cart-button" id="cartValue"><i class="fa-solid fa-cart-shopping">0</i></a></li>
+         
+        </ul>
+      </nav>
+      
+    </div>
+    
+  </header>
+ 
+<section class="addToCartElement">
+    <div class="container">
+        <section >
+        <div id="productCartContainer"></div>
+        </section>
+        <section class="productCartTotalElem">
+            <div class="productCartTotalElement">
+                <p>Selected offer Summery</p>
+                <div class="productOrderTotal">
+                    <div>
+                        <p>Sub Total:</p>
+                        <p class="productSubTotal">0</p>
+                    </div>
+                    <div>
+                        <p>Tax:</p>
+                        <p class="productTax">₹65</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Final Total:</p>
+                        <p class="productFinalTotal">0</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+<template id="productCartTemplate">
+    <div class="cards" id="cardValue">
+        <artical class="information [ card ]">
+            <div>
+                <span class="category"></span>
+            </div>
+            <div class="imageContainer">
+                <img src="" alt="" class="productImage">
+            </div>
+            <h2 class="productName"></h2>
+            <p class="productPrice"></p>
+            <div class="stockElement">
+                <button class="cartIncrement">+</button>
+                <p class="productQuantity" data-quantity="1">1</p>
+                <button class="cartDecrement">-</button>
+            </div>
+            <button class="add-to-cart-button remove-to-cart-button">
+                Remove
+            </button>
+        </artical>
+    </div>
+</template>
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <footer class="section-p1">
+    <div class="col">
+        <img class="logofooter" src="./image/MODEZA logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Phone:</strong>+01 22 2222222</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Term & Conditions</a>
+        <a href="#">Contact Us</a>
+
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+
+    </div>
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="./image/app.jpg" alt="">
+            <img src="./image/play.jpg" alt="">
+        </div>
+        <p>From App Store or Google Play</p>
+        <img src="./image/pay.png" alt="">
+    </div>
+    
+  </footer>
+  <div class="copyright">
+  <p>&2024, MODEZA ALL COPYRIGHT</p>
+  </div>
+  <script type="module" src="./src/showAddToCards.js"></script>
+  
+</body>
+</html>

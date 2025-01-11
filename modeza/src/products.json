@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "name":"shirt",
+        "category":"men",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n6.jpg"
+
+    },
+    {
+        "id": 2,
+        "name":"shirt",
+        "category":"men",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n7.jpg"
+
+    },
+    {
+        "id": 3,
+        "name":"shirt",
+        "category":"men",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n8.jpg"
+
+    },
+    {
+        "id": 4,
+        "name":"shirt",
+        "category":"men",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n3.jpg"
+
+    },
+    {
+        "id": 5,
+        "name":"shirt",
+        "category":"men",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n8.jpg"
+
+    },
+    {
+        "id": 6,
+        "name":"shirt",
+        "category":"men",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n7.jpg"
+
+    },
+    {
+        "id": 7,
+        "name":"shirt",
+        "category":"men",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n6.jpg"
+
+    },
+    {
+        "id": 8,
+        "name":"shirt",
+        "category":"men",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n5.jpg"
+
+    },
+    {
+        "id": 9,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n4.jpg"
+
+    },
+    {
+        "id": 10,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n3.jpg"
+
+    },
+    {
+        "id": 11,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n2.jpg"
+
+    },
+    {
+        "id": 12,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/n1.jpg"
+
+    },
+    {
+        "id": 13,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/f8.jpg"
+
+    },
+    {
+        "id": 14,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/f7.jpg"
+
+    },
+    {
+        "id": 15,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/f6.jpg"
+
+    },
+    {
+        "id": 16,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/f5.jpg"
+
+    },
+    {
+        "id": 17,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/f4.jpg"
+
+    },
+    {
+        "id": 18,
+        "name":"shirt",
+        "category":"women",
+        "brand":"Roadstar",
+        "price":999.99,
+        "stock": 50,
+        "description":"100% pure cotton shirt made with love",
+        "image":"../image/f3.jpg"
+
+    }
+]

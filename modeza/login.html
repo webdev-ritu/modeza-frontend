@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <title>Login - Modeza</title>
+</head>
+<body>
+  <div class="cont">
+    <div class="login-wrapper">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="form-control" placeholder="Enter your password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+        <p>Don't have an account? <a href="#" id="showSignup">Sign up</a></p>
+      </form>
+    </div>
+
+    <div class="signup-wrapper" style="display: none;">
+      <h2>Sign Up</h2>
+      <form id="signupForm">
+        <div class="form-group">
+          <label for="signupEmail">Email</label>
+          <input type="email" id="signupEmail" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="signupPassword">Password</label>
+          <input type="password" id="signupPassword" class="form-control" placeholder="Enter your password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+        <p>Already have an account? <a href="#" id="showLogin">Log in</a></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" style="display: none;">
+    <div class="toast-body">
+      Login successful!
+    </div>
+  </div>
+
+  <script src="./src/login.js"></script>
+</body>
+</html>
+
